@@ -1,0 +1,82 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="./jquery-3.2.1.js"></script>
+        <script src="./bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+    </head>
+    <body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">学生成绩单</a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="./index.html">主页</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal">添加</a></li>
+                    <li><a data-toggle="modal" data-target="#myModal">搜索</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div id="myCarousel" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="item active">
+                <img src="./static/1.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>你的成绩单</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./static/2.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>不，是你的成绩单</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <img src="./static/3.jpg" alt="">
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>这不是我的成绩单</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+
+    <div class="container marketing">
+        <div class="row">
+            <div class="span4">
+                <img class="img-circle" src="./static/4.jpg">
+                <h2>第一个成绩单</h2>
+                <p><a class="btn" href="#">查看</a></p>
+            </div>
+            <div class="span4">
+                <img class="img-circle" src="./static/4.jpg">
+                <h2>第二个成绩单</h2>
+                <p><a class="btn" href="#">查看</a></p>
+            </div>
+            <div class="span4">
+                <img class="img-circle" src="./static/4.jpg">
+                <h2>第三个成绩单</h2>
+                <p><a class="btn" href="#">查看</a></p>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>
